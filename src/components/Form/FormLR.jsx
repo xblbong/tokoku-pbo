@@ -5,7 +5,7 @@ export default function FormLR(props) {
   const {Img, Title, textButton, desc, link, nameLink } = props;
   return (
     <>
-      <div className="flex justify-evenly gap-x-20 my-10">
+      <div className="flex justify-evenly gap-x-20 my-14">
         <div>
           <img src={Img} alt="icon" className="w-[524px]" />
         </div>

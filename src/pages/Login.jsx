@@ -1,12 +1,10 @@
 import React from 'react'
 import FormLR from '../components/Form/FormLR';
 import Footer from '../components/layouts/Footer/Footer';
-import Header from '../components/layouts/Header/Header';
 
 function Login() {
   return (
     <div>
-      <Header />
       {/* login */}
       <FormLR
         Img="./img/float.svg"
