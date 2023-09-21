@@ -1,6 +1,5 @@
 import React from 'react'
 import FormLR from '../components/Form/FormLR'
-import Footer from '../components/layouts/Footer/Footer';
 import Header from '../components/layouts/Header/Header';
 
 function Register() {
@@ -16,7 +15,6 @@ function Register() {
         nameLink="Login"
         desc="Sudah punya Akun?"
       />
-      <Footer />
     </div>
   );
 }

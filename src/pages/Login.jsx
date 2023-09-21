@@ -1,6 +1,5 @@
 import React from 'react'
 import FormLR from '../components/Form/FormLR';
-import Footer from '../components/layouts/Footer/Footer';
 
 function Login() {
   return (
@@ -14,7 +13,6 @@ function Login() {
         nameLink="Daftar"
         desc="Belum Punya akun?"
       />
-      <Footer />
     </div>
   );
 }
