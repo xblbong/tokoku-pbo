@@ -2,11 +2,11 @@ import React from "react";
 import { Carousel } from "antd";
 
 const carouselStyle = {
-  height: "300px", // Ubah tinggi Carousel sesuai kebutuhan
+  height: "100vh", // Ubah tinggi Carousel sesuai kebutuhan
 };
 
 const contentStyle = {
-  height: "230px", // Gunakan tinggi maksimum konten untuk mengisi Carousel
+  height: "100vh", // Gunakan tinggi maksimum konten untuk mengisi Carousel
   color: "#fff",
   display: "flex",
   flexDirection: "column",
@@ -20,16 +20,39 @@ export default function Banner() {
     <div style={carouselStyle}>
       <Carousel autoplay>
         <div>
-          <h3 style={contentStyle}>1</h3>
+          <h3 style={contentStyle}>
+            <img
+              src="/banner/banner5.png"
+              className="w-full"
+              alt=""
+            />
+          </h3>
         </div>
         <div>
-          <h3 style={contentStyle}>2</h3>
+          <h3 style={contentStyle}>
+            <img
+              src="/banner/banner2.png"
+              className="w-full"
+            />
+          </h3>
         </div>
         <div>
-          <h3 style={contentStyle}>3</h3>
+          <h3 style={contentStyle}>
+            <img
+              src="/banner/banner3.png"
+              className="w-full"
+              alt=""
+            />
+          </h3>
         </div>
         <div>
-          <h3 style={contentStyle}>4</h3>
+          <h3 style={contentStyle}>
+            <img
+              src="/banner/banner4.png"
+              className="w-full"
+              alt=""
+            />
+          </h3>
         </div>
       </Carousel>
     </div>

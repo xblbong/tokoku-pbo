@@ -21,15 +21,14 @@ export default function SwiperComponent() {
         slidesPerView={6}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide><img className="" src="/icon/logoo1.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img className="" src="/icon/logou2.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img className="" src="/icon/logoo3.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img className="" src="/icon/logoo4.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img className="" src="/icon/logoo5.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img className="" src="/icon/logoo7.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img className="" src="/icon/logou8.png" alt="" /></SwiperSlide>
+        <SwiperSlide><img className="" src="/icon/logou9.png" alt="" /></SwiperSlide>
       </Swiper>
     </>
   );

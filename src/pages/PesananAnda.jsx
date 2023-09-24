@@ -47,7 +47,7 @@ function PesananAnda() {
             <span className="flex justify-between mt-5">
               <h3 className="text-[20px]">Total Pembayaran</h3>
               <span className="flex gap-x-20">
-                <p className="text-[16px]">Rp. 50.000</p>
+                <p className="text-[20px]">Rp. 50.000</p>
               </span>
             </span>
           </div>
